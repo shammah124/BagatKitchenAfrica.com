@@ -1,0 +1,16 @@
+@media screen and (max-width: 900px) {
+    .reserveFlex {
+        display: flex;
+        flex-direction: column;
+    }
+    .width1 {
+        width: 100%;
+    }
+    .width2 {
+        width: 40%;
+        margin: auto;
+    }
+    .reserveMargin {
+        margin-top: 150px;
+    }
+}

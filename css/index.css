@@ -1,0 +1,119 @@
+.address {
+    background: rgb(5, 90, 90);
+    font-family: cursive;
+}
+.navbar-brand a {
+    text-decoration: none;
+}
+.carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0) !important;
+}
+.carousel-item img {
+    height: 550px;
+}
+/* #toggleCarousel {
+    right: 50%;
+    position: absolute;
+    bottom: 50%;
+} */
+.btn .btn-colour a{
+    background: rgb(5, 90, 90);
+}
+.smedia .bi {
+    color: rgb(5, 90, 90);
+}
+.contact .e {
+    background: rgb(5, 90, 90);
+    border-radius: 0px;
+}
+.BagatSection {
+    background: linear-gradient(rgba(5, 90, 90,0.8), rgba(0, 0, 0,0.7)), url(../images/Beautiful_FoodTable.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+.BagatSection2 {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(5, 90, 90,0.8)), url(../images/Table_with_differnt_foods_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin-top: 1px;
+}
+.bagatlogo2 {
+    margin-top: 100px;
+}
+.designer {
+    background: rgb(5, 90, 90);
+}
+.nightview img {
+    height: 100%;
+}
+.myBagat img {
+    width: 250px;
+    height: 150px;
+    margin-top: -50px;
+}
+.kitLogo img {
+    width: 400px;
+    height: 400px;
+}
+@media screen and (max-width: 900px) {
+    .slide {
+        margin-top: 140px;
+    }
+    .carousel-item img {
+        height: 250px;
+    }
+    .mykitchen {
+        display: flex;
+        flex-direction: column;
+        margin-top: 500px;
+    }
+    .myBagat {
+        display: flex;
+        /* justify-content: space-between; */
+        margin-left: 500px;
+    }
+    .myBagat .h2 {
+        font-size: xx-large;
+        text-align: center;
+    }
+    .myBagat .afr {
+        margin-top: 20px;
+    }
+    .myBagat img {
+        width: 200px;
+        margin: auto;
+        height: 120px;
+        margin-top: -10px;
+    }
+    .kitLogo img {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        margin-left: auto;
+    }
+    .nightview img {
+        height: 100%;
+        margin-top: 50px;
+    }
+    .nightview2 img {
+        margin-bottom: 50px;
+    }
+    .conAdd {
+        display: flex;
+        flex-direction: column;
+    }
+}
